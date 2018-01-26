@@ -54,6 +54,7 @@ class MainActivity : AppCompatActivity() {
         resetButton.setOnClickListener {
             handler.removeCallbacks(runnable)
             timeValue = 0
+            // resetボタンを押したときにstartボタンをリセットする
             startButton.text = "START"
             flag = false
             TimeToText()?.let {
