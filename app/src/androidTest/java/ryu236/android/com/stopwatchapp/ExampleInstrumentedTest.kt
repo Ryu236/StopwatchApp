@@ -1,3 +1,7 @@
+/*
+ * Copyright (c) 2018 Ryu236
+ */
+
 package ryu236.android.com.stopwatchapp
 
 import android.support.test.InstrumentationRegistry
